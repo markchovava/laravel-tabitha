@@ -1,0 +1,60 @@
+RESOURCE MANAGEMENT SYSTEM
+
+Users
+Authentication
+Logs(12)
+Subscription
+Subscription Auth
+AppInfo
+
+##AppInfo
+name
+description
+email
+phone
+website
+address
+
+
+# Users
+name,
+password,
+code, 
+phone, 
+email, 
+address, 
+role, 
+is_admin
+
+# Subscription
+name STRING
+description LONG STRING
+fee FLOAT
+
+# UserSubscription
+subscription_id
+amount,
+startDate,
+endDate
+user_id
+subscriptionToken
+
+# Logs
+details,
+patient
+assistant
+date 
+time
+image
+
+# Visitor
+details,
+patient
+assistant
+date 
+time
+image
+mask
+sanitization
+socialDistance
+temperature
